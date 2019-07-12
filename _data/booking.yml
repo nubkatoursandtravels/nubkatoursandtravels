@@ -1,11 +1,15 @@
-- icon: icon-user-md
+- icon: icon-bus
   title: Bus Tickets 
   description: Daily bus tickets to Dharamsala, Dehradun, Manali, Bir/Chauntra, Shimla, Jammu etc 
 
-- icon: icon-diamond
+- icon: icon-train
   title: Train Tickets 
-  description: Train bookings across India
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
-- icon: icon-flask
+- icon: icon-flight
   title: Air Tickets  
   description: Domestic and International bookings at the best rate. 
+
+- icon: icon-bed
+  title: Hotel Booking  
+  description: Hotel Recommendations according to your budget. We also book Hotels in advance to have a more convenient and hassle free travel. 

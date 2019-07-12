@@ -1,25 +1,28 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Nubka
+description: "Tour & Travels"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: /img/logo.png
 
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: Nubka
+    hero_description: Tour & Travels
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
+    phone: 91 123979907 
+    mobile: 91 9818020885
+    emergency: 91 9818020885
+    email: nubka-director@gmail.com
     address: Von schroeders 273, <br> Viña del mar - Chile
+    manager-mobile: 91 9818840144
+    manager-email: nubka-manager@gmail.com
 
 # Opening hours
 monday_friday: 9:00 – 18:00
@@ -33,8 +36,8 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
-    address_details: svg/min/logo.svg
+    address: Majnu-ka-tilla, Timarpur,Delhi, 110054
+    address_details: img/logo.png
 
 # Social settings
 facebook: http://facebook.com
@@ -45,7 +48,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2019 Nubka | Tour & Travels
 
 # Build settings
 markdown: kramdown
@@ -63,3 +66,7 @@ exclude: [
 # Theme Settings
 analytics: 
 google_verification:
+
+#3388bc
+#358dc4
+#3993c9

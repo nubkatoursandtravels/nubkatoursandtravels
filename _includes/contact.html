@@ -1,0 +1,49 @@
+<div class="contact" id="contact">
+    <div class="container-fluid">
+        <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="three-shade-col">
+            <div class="col-sm-6">
+                    <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+                    <h3>Managing Director</h3>
+                    <ul>
+                        {% if site.contact.phone %}<li><strong>Phone: </strong> {{ site.contact.phone }}</li>{% endif %}
+                        {% if site.contact.emergency %}<li><strong>Emergency: </strong> {{ site.contact.emergency }}</li>{% endif %}
+                        {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+                    </ul>
+            </div>
+            <div class="col-sm-6">
+                <svg class="icon icon-user"><use xlink:href="#icon-user"></use></svg>
+                <h3>Manager</h3>
+                <ul>
+                        {% if site.contact.manager-mobile %}<li><strong>Phone: </strong> {{ site.contact.manager-mobile }}</li>{% endif %}
+                        {% if site.contact.emergency %}<li><strong>Emergency: </strong> {{ site.contact.manager-mobile }}</li>{% endif %}
+                        {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.manager-email }}</li>{% endif %}
+                    </ul>
+            </div>  
+        </div>
+        <!--
+        <div class="jumbotron"> 
+        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+        <h3>Opening Hours</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Monday – Friday</td>
+                        <td>{{ site.monday_friday }}</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>{{ site.saturday }}</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>{{ site.sunday }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    -->
+    </div> 
+</div>
